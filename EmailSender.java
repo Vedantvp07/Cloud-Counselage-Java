@@ -4,8 +4,8 @@ import javax.mail.internet.*;
 
 public class EmailSender {
     public static void sendEmail(String to, String name, String utmLink) {
-        final String senderEmail = "vedantpatilvp45@gmail.com";  //your-email@gmail.com
-        final String senderPassword = "anke kpyi xokf rmqq";  // 16 char app password
+        final String senderEmail = "..";  //your-email@gmail.com
+        final String senderPassword = "..";  // 16 char app password
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
